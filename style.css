@@ -6,7 +6,7 @@
     --cor-principal: #880fb8;
     --cor-secundaria: #fafafa;
     --fonte: "Sofadi One", system-ui;
-    --cor-barra: #white;
+    --cor-barra: white;
 }
 
 body {
