@@ -21,7 +21,7 @@ async function quantidadeUsuarios() {
         plot_bgcolor: getCSS('--cor-de-fundo'),
         paper_bgcolor: getCSS('--cor-de-fundo'),
         title: {
-            text: 'Números de comunidades no brasil.',
+            text: 'Números de de abitamtes em algumas comunidades quilombolas no brasil.',
             font: {
                 color: getCSS('--cor-principal'),
                 family: getCSS('--fonte'),
