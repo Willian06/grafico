@@ -21,7 +21,7 @@ async function quantidadeUsuarios() {
         plot_bgcolor: getCSS('--cor-de-fundo'),
         paper_bgcolor: getCSS('--cor-de-fundo'),
         title: {
-            text: 'Representatividade Negra em Diferentes Áreas no Brasil',
+            text: 'Representatividade Negra em Diferentes Áreas no Brasil em %',
             font: {
                 color: getCSS('--cor-principal'),
                 family: getCSS('--fonte'),
