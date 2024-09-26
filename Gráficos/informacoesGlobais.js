@@ -10,7 +10,7 @@ async function visualizarInformacoesGlobais() {
     const porcentagemConectada = ((pessoasConectadas/pessoasMundo)*100).toFixed(2)
     const paragrafo = document.createElement('p')
     paragrafo.classList.add('graficos-container__texto')
-    paragrafo.innerHTML = `Política: Cerca de <spam>24%</spam> dos deputados federais eleitos em 2022 se autodeclararam negros.
+    paragrafo.innerHTML = `Política: Cerca de <span> 24% </span> dos deputados federais eleitos em 2022 se autodeclararam negros.
 
 Educação Superior: Aproximadamente 12% dos professores universitários se declaram negros, e 20% dos alunos em instituições de ensino superior são negros.
 
