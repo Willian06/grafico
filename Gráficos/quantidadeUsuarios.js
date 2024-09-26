@@ -31,7 +31,7 @@ async function quantidadeUsuarios() {
         xaxis: {
             tickfont: tickConfig,
             title: {
-                text: 'Nome dos preto',
+                text: 'Nome das áreas dos pretos',
                 font: {
                     color: getCSS('--cor-secundaria')
                 }
