@@ -10,7 +10,16 @@ async function visualizarInformacoesGlobais() {
     const porcentagemConectada = ((pessoasConectadas/pessoasMundo)*100).toFixed(2)
     const paragrafo = document.createElement('p')
     paragrafo.classList.add('graficos-container__texto')
-    paragrafo.innerHTML = `Você sabia que o mundo tem <span> ${pessoasMundo} bilhões </span> de pessoas e que aproximadamente <span> ${pessoasConectadas} bilhões </span> estão conectadas em alguma rede social e passam em média <span> ${horas} horas </span> e <span>${minutos} minutos </span> conectadas?<br>Isso significa que <span>${porcentagemConectada} % </span> de pessoas estão conectadas em alguma rede social `
+    paragrafo.innerHTML = `Política: Cerca de <spam> 24% </spam> dos deputados federais eleitos em 2022 se autodeclararam negros.
+
+Educação Superior: Aproximadamente 12% dos professores universitários se declaram negros, e 20% dos alunos em instituições de ensino superior são negros.
+
+Gerência Executiva: Estima-se que apenas 5% dos cargos de gerência executiva em empresas brasileiras sejam ocupados por pessoas negras.
+
+Entretenimento e Mídia: Aproximadamente 30% das pessoas negras estão representadas em papéis de destaque na mídia e entretenimento.
+
+Professores: Cerca de 35% dos professores na educação básica se autodeclaram negros.
+ `
     const container = document.getElementById('graficos-container')
     container.appendChild(paragrafo)
 }
