@@ -20,7 +20,7 @@ Entretenimento e Mídia: Aproximadamente <span>30%</span> das pessoas negras est
 
 Professores: Cerca de <span>35%</span> dos professores na educação básica se autodeclaram negros.
 `
- `
+ 
     const container = document.getElementById('graficos-container')
     container.appendChild(paragrafo)
 }
