@@ -4,9 +4,10 @@ async function quantidadeUsuarios() {
     const url = 'https://raw.githubusercontent.com/guilhermeonrails/api/main/numero-usuarios.json'
     const res = await fetch(url)
     const dados = await res.json()
-    const nomeDasRedes = ['Política','Educação Superior','Gerência Executiva','Entreterimento e mídia','Professores']
-    const data = ['24%','12%','5%','30%','35%']
-        [{
+    const nomeDasRedes = Object.keys(dados)
+    const quantidadeUsuarios = Object.values(dados)
+    const data = [
+        {
             x: nomeDasRedes,
             y: quantidadeUsuarios,
             type: 'bar',
@@ -20,7 +21,7 @@ async function quantidadeUsuarios() {
         plot_bgcolor: getCSS('--cor-de-fundo'),
         paper_bgcolor: getCSS('--cor-de-fundo'),
         title: {
-            text: 'Números de de abitamtes em algumas comunidades quilombolas no brasil.',
+            text: 'Redes sociais com mais usuários no mundo',
             font: {
                 color: getCSS('--cor-principal'),
                 family: getCSS('--fonte'),
