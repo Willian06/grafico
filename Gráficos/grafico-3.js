@@ -4,8 +4,8 @@ async function quantidadeUsuarios() {
     const url = 'https://raw.githubusercontent.com/guilhermeonrails/api/main/numero-usuarios.json'
     const res = await fetch(url)
     const dados = await res.json()
-    const nomeDasRedes = ['Política','Educação Superior','Gerência Executiva','Entreterimento e mídia','Professores']
-    const quantidadeUsuarios = ['24%','12%','5%','30%','35%']
+    const nomeDasRedes = ['15 anos','19 anos','20 anos','24 anos','25 anos','29 anos','30 anos ou mais']
+    const quantidadeUsuarios = ['15%','15%','30%','30%','25%','25%','30%']
     const data = [
         {
             x: nomeDasRedes,
@@ -21,7 +21,7 @@ async function quantidadeUsuarios() {
         plot_bgcolor: getCSS('--cor-de-fundo'),
         paper_bgcolor: getCSS('--cor-de-fundo'),
         title: {
-            text: 'Representatividade Negra em Diferentes Áreas no Brasil em %',
+            text: 'taxa de gravides entre pessoas de 15 a 19 anos, 20 a 24 anos, 25 a 29 anos e 30 anos ou mais em %',
             font: {
                 color: getCSS('--cor-principal'),
                 family: getCSS('--fonte'),
