@@ -5,7 +5,7 @@ async function quantidadeUsuarios() {
     const res = await fetch(url)
     const dados = await res.json()
     const nomeDasRedes = ['15 anos','24anos','25 anos','54 anos','55 anos ou mais']
-    const quantidadeUsuarios = ['10','10','50','50','40','40']
+    const quantidadeUsuarios = ['10','10','50','50','40',]
     const data = [
         {
             x: nomeDasRedes,
@@ -21,7 +21,7 @@ async function quantidadeUsuarios() {
         plot_bgcolor: getCSS('--cor-de-fundo'),
         paper_bgcolor: getCSS('--cor-de-fundo'),
         title: {
-            text: 'Representatividade Negra em Diferentes Áreas no Brasil em %',
+            text: 'taxa de suicídio entre jovens de 15 a 24 anos, adultos de 25 a 54 anos e idosos de 55 anos ou mais em %',
             font: {
                 color: getCSS('--cor-principal'),
                 family: getCSS('--fonte'),
